@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    let arr = [12,4,56,3,10,33,6,7,54,9];
+    let average = 0;
+    let max = 0;
+    for (let i= 0; i < arr.length; i++){
+        average += (arr[i] / arr.length);
+        if (max < arr[i]){
+            max = arr[i];
+        }
+    }
+    alert("max= " + max);
+    document.write("average= " + average)
+</script>
+</body>
+</html>

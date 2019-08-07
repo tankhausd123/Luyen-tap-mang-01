@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 2</title>
+</head>
+<body>
+<script>
+    let arr = [12,4,56,3,10,33,6,7,54,9];
+    let max = 0;
+    let position = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (max < arr[i]){
+            max = arr[i];
+            position =i;
+        }
+    }
+    document.write("chuoi co max= " + max + " o vi tri thu " + position)
+
+</script>
+</body>
+</html>
